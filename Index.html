@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Exercises</title>
+        <style type="text/css">
+            body{
+              background-color:darkblue;
+              margin: 0;
+            }
+            h1{
+              color:firebrick;
+              font-family:fantasy;
+              margin: 0;
+                font-weight:bold;
+                text-shadow: 5px 10px 10px yellow;
+                font-size: 4rem;
+            }
+            h3{
+              color:crimson;
+              font-family:"arial",sans-serif;
+              margin: 0;
+                text-shadow: 1px 5px 12px white;
+            }
+            h2{
+            color:darkgoldenrod;
+            font-family: monospace;
+            margin: 0;
+                
+            }
+            div#square{
+            background-color: deepskyblue;
+            width:35px;
+            height:35px;
+                border:dashed 5px red;
+                position: absolute;
+               left:1px;
+                top:900px;
+                display:block;
+                margin: 1% auto;
+                transition:5s;
+            }
+            div#square:hover{
+                width:159em;
+            }
+            div#circle{
+            background-color: lawngreen;
+                width:15rem;
+                height:15rem;
+                border-radius:100%; 
+                border: dotted 10px orange;
+                position: absolute;
+               
+                top:580px ;
+                display:block;
+                margin: 1% auto;
+                transition: 10s;
+            }
+            div#circle:hover{
+                width:30%;
+                height:20%;
+            }
+            div#triangle{
+            background: black;
+                display:block;
+                margin: 1% auto;
+            width:0;
+            height:0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid #666;
+                position: absolute;
+            top: 425px;
+            }
+            img#dice{
+             display:block;
+             border-radius:38%;
+             border:double 10px darkgreen;
+            position:absolute;
+            margin: 1% auto;
+                z-index:1;
+                transition:2s;
+                transition: width 5s;
+            }
+            img#dice:hover{
+        
+                width:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Exercises</h1>
+        <h3>Vol.1 
+        </h3>
+        <div id="square"></div>
+        <div id="circle"> </div>
+        <div id="triangle"></div>
+        
+        <img src="D20.png" id="dice">
+    </body>
+</html>
